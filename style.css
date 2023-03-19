@@ -5,6 +5,14 @@
     border-radius: 10px;
 } */
 
+		/*border box fix*/
+		html {
+			box-sizing: border-box;
+		}
+		*, *:before, *:after{
+			box-sizing: inherit;
+		}
+
 body{
     margin: 0;
     padding: 0;
@@ -121,7 +129,7 @@ a:hover{
 
 
 .contact-list a{
-    padding: 15px;
+    /* padding: 15px; */
     display: inline-block;
 }
 
