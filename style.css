@@ -110,8 +110,9 @@ a:link{
     background: #C4B2BC;
     color: whitesmoke;
     text-decoration: none;
-    padding: 5px;
+    padding: 15px;
     border-radius: 4px;
+    width: max-content;
 }
 a:visited{
     color: #000000;
@@ -144,8 +145,12 @@ a:hover{
         column-gap: 20px;
     }
     .contact-list{
-        display: flex;
-        justify-content: center;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    
+    .flex-item{
+        flex: 0 1 100px;
     }
 }
 
